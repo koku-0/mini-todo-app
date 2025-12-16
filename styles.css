@@ -37,4 +37,29 @@ body {
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
+    /* クリックで完了できるようにカーソルをポインターに変更 */
+    cursor: pointer; 
+}
+
+/* --- 追加したスタイル --- */
+
+/* 完了状態のタスクに適用されるスタイル */
+.completed {
+    /* テキストに打ち消し線を追加 */
+    text-decoration: line-through; 
+    /* 文字の色を薄くする */
+    color: #888; 
+    /* 背景色も変えて、完了したことが分かりやすくする */
+    background: #d4edda; 
+}
+
+/* 削除ボタンのスタイル */
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
 }
