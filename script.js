@@ -10,6 +10,7 @@ todoList.addEventListener('click', toggleComplete);
 
 // タスクを追加する関数
 function addTask() {
+    throw new Error("バグ発生！")
     const taskText = todoInput.value.trim();
 
     // 入力チェック
